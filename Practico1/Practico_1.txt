@@ -1,0 +1,91 @@
+Trabajo basado en soluciones implementas en BlueJ
+
+	Usando el proyecto "Figures"
+
+
+Ej2-----
+
+2.5- Que tipo de valor acepta el parametro del metodo changeColor? Es primitivo?
+	
+	No es primitivo es de tipo Objeto. String esta definido como objeto dentro de lenguaje.
+
+2.11- Es posibe cambiar e color del sol a gris?
+
+	NO. De la forma que esta implementado el color el gris no es un color
+
+
+EJ 4-----
+
+	4.2 -	
+
+	-Se definen las varibles de los elementos de mi escena con su tipo correcpondiente
+
+		private Square wall;
+	    private Square window;
+	    private Triangle roof;
+	    private Circle sun;
+	    private Person person;
+	    private boolean drawn;
+
+	-Se llama al constructor Picture() qu crea cada una de las figuras
+
+		ej: wall = new Square();
+
+	-Se dibujan las figuras con ciertos parametos (se as hace Visible)
+
+	-Luego se definen 2 metodos (cambian el color de las figuras)
+
+		setBlackAndWhite()
+		setColor()
+
+	4.3-
+	
+	el constuctor obtiene los componentes del CUADRO por separado (invocando a los metodos de construccion de cada figura) y se los deja listos a la clase Picture para armar con todo eso el CUADRO 	
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+PRACTICO 2
+
+EJ 1- 
+
+	1.2 No muestran lo mismo, ya que a cada objeto se le asigno un valor distinto  lo conserva
+
+	1.3 El efecto que tiene es contruye el ticker con el valor fijo que se le asigno al el precio
+
+	1.5 El metodo Empty requiere de ningun parametro . Empty es un modificador (produce un cambio de estado en el objeto al que se aplica)
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
